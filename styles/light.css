@@ -15,8 +15,21 @@
   --main-font: IBM Plex Mono;
   --outline-color: rgba(50, 49, 45, 0.40); 
   --header-accent-color: #353430;
+  --visibility-rec-decor: hidden;
 }
 
-.theme_light .header__rec {
-  display: none;
-} 
+@media (prefers-color-scheme: light) {
+  :root { 
+    --bg-color: #000028; 
+    --bg-image: url(../images/cover-image-dark.png); 
+    --bg-text-color: #FF0070;   
+    --text-color: #F1B2CE; 
+    --title-decor-color: #000028;  
+    --accent-color: #FF0070; 
+    --accent-heading-color: #DB00FF;  
+    --main-font: IBM Plex Mono; 
+    --outline-color:  rgba(255, 0, 112, 0.40); 
+    --header-accent-color: #FF0070;
+    --visibility-rec-decor: hidden; 
+  } 
+}  
