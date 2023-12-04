@@ -16,20 +16,26 @@
   --outline-color: rgba(50, 49, 45, 0.40); 
   --header-accent-color: #353430;
   --visibility-rec-decor: hidden;
+  --text-shadow: #FF0070;
+  --mob-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --des-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
 @media (prefers-color-scheme: light) {
   :root { 
-    --bg-color: #000028; 
-    --bg-image: url(../images/cover-image-dark.png); 
-    --bg-text-color: #FF0070;   
-    --text-color: #F1B2CE; 
-    --title-decor-color: #000028;  
-    --accent-color: #FF0070; 
-    --accent-heading-color: #DB00FF;  
-    --main-font: IBM Plex Mono; 
-    --outline-color:  rgba(255, 0, 112, 0.40); 
-    --header-accent-color: #FF0070;
-    --visibility-rec-decor: hidden; 
-  } 
+    --bg-image: url(../images/cover-image-light.png);
+    --bg-color: #fff1f7;
+    --bg-text-color: #FF8DCB; 
+    --text-color: #353430;
+    --title-decor-color: #353430;
+    --accent-color: #FF8DCB;
+    --accent-heading-color: #FFC2E6; 
+    --main-font: IBM Plex Mono;
+    --outline-color: rgba(50, 49, 45, 0.40); 
+    --header-accent-color: #353430;
+    --visibility-rec-decor: hidden;
+    --text-shadow: #FF0070;
+    --mob-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --des-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }  

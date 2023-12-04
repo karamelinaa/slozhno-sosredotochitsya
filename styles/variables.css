@@ -15,6 +15,9 @@
     --outline-color:  rgba(255, 0, 112, 0.40);
     --header-accent-color: #FF0070;
     --visibility-rec-decor: visible;
+    --text-shadow: #FF0070;
+    --mob-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --des-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
 
