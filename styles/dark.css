@@ -4,7 +4,7 @@
   переключая тему
 */
 
-:root.theme_dark {
+.page.theme_dark {
   --bg-color: #000028;
   --bg-image: url(../images/cover-image-dark.png);
   --bg-text-color: #FF0070;  
@@ -19,7 +19,7 @@
   --text-shadow: #FF0070;
   --mob-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --des-font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-}
+} 
 
 @media (prefers-color-scheme: dark) {
   :root { 
